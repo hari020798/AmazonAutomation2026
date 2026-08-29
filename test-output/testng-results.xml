@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-20T09:33:47 IST" name="Suite" finished-at="2026-06-20T09:33:47 IST" duration-ms="113">
+    <groups>
+      <group name="Regression">
+        <method signature="groups.Method2()[pri:2, instance:TestNG.groups@5890e879]" name="Method2" class="TestNG.groups"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="groups.Method3()[pri:-1, instance:TestNG.groups@5890e879]" name="Method3" class="TestNG.groups"/>
+        <method signature="groups.Method1()[pri:1, instance:TestNG.groups@5890e879]" name="Method1" class="TestNG.groups"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2026-06-20T09:33:47 IST" name="Test" finished-at="2026-06-20T09:33:47 IST" duration-ms="113">
+      <class name="TestNG.groups">
+        <test-method signature="Method3()[pri:-1, instance:TestNG.groups@5890e879]" started-at="2026-06-20T09:33:47 IST" name="Method3" finished-at="2026-06-20T09:33:47 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method3 -->
+        <test-method signature="Method1()[pri:1, instance:TestNG.groups@5890e879]" started-at="2026-06-20T09:33:47 IST" name="Method1" finished-at="2026-06-20T09:33:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method1 -->
+        <test-method signature="Method2()[pri:2, instance:TestNG.groups@5890e879]" started-at="2026-06-20T09:33:47 IST" name="Method2" finished-at="2026-06-20T09:33:47 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Method2 -->
+      </class> <!-- TestNG.groups -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
