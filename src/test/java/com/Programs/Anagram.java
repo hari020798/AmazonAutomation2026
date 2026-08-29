@@ -9,21 +9,34 @@ public class Anagram {
 		String str = "Hari";
 		char[] cA = str.toLowerCase().toCharArray();
 		
-		String str2 = "irai";
+		String str2 = "iraHS";
 		char[] lA = str2.toLowerCase().toCharArray();
 		
+		boolean an = false;
+		
+		
 		int [] count = new int[26];
+		
+		if(str.length() ==  str2.length()) {
 		
 		for(int i =0; i<cA.length; i++) {
 			count[cA[i] - 97]++;
 			count[lA[i] - 97]--;
 			
 			
+		} }
+		
+		else {
+			
+			System.out.println("Not an Anagram: Number Mismatch");
+			return;
 		}
+		
+		
 	    for (int num : count) {
 	        if (num != 0) {
 	            System.out.println("Not Anagram");
-	            return;
+	            return ;
 	        }
 	    }
 
@@ -63,7 +76,7 @@ public class Anagram {
 	public static void main(String[] args) {
 		
 		Anagram as = new Anagram();
-		as.Method2();
+		as.Method1();
 	}
 		
 	}
