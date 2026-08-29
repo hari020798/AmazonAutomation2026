@@ -12,7 +12,6 @@ public class Anagram {
 		String str2 = "iraHS";
 		char[] lA = str2.toLowerCase().toCharArray();
 		
-		boolean an = false;
 		
 		
 		int [] count = new int[26];
